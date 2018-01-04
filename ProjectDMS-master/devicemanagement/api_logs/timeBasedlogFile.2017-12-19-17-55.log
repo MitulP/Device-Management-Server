@@ -1,0 +1,6 @@
+2017-12-19 17:55:22,918 INFO  [http-nio-8081-exec-3] MySessionFactory: session factory call
+2017-12-19 17:55:22,923 INFO  [http-nio-8081-exec-3] UserDAO: check device
+2017-12-19 17:55:22,923 INFO  [http-nio-8081-exec-3] MySessionFactory: session factory call
+2017-12-19 17:55:25,101 INFO  [http-nio-8081-exec-3] UserDAO: Checking Validity
+2017-12-19 17:55:25,102 INFO  [http-nio-8081-exec-3] MySessionFactory: session factory call
+2017-12-19 17:55:25,107 WARN  [http-nio-8081-exec-3] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead

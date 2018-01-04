@@ -1,0 +1,8 @@
+2017-12-12 23:47:40,750 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-12 23:47:40,761 INFO  [http-nio-8082-exec-4] UserDAO: Deivce already exists
+2017-12-12 23:47:40,761 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-12 23:47:40,762 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-12 23:47:40,763 WARN  [http-nio-8082-exec-4] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-12 23:47:44,721 INFO  [RMI TCP Connection(2)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+2017-12-12 23:47:44,722 INFO  [RMI TCP Connection(2)-127.0.0.1] AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6adbc9d: startup date [Tue Dec 12 23:34:45 IST 2017]; root of context hierarchy
+2017-12-12 23:47:44,724 INFO  [RMI TCP Connection(2)-127.0.0.1] AnnotationMBeanExporter: Unregistering JMX-exposed beans on shutdown

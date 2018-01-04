@@ -1,0 +1,273 @@
+2017-12-20 17:40:08,434 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-20 17:40:08,436 INFO  [http-nio-8082-exec-1] DefaultLoadEventListener: HHH000327: Error performing load command : org.hibernate.HibernateException: The internal connection pool has reached its maximum size and no connection is currently available!
+2017-12-20 17:40:08,437 ERROR [http-nio-8082-exec-1] UserDAO: check device avablity exception 
+org.hibernate.HibernateException: The internal connection pool has reached its maximum size and no connection is currently available!
+	at org.hibernate.engine.jdbc.connections.internal.PooledConnections.poll(PooledConnections.java:82)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:186)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:47)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:146)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:172)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:148)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.prepareQueryStatement(AbstractLoadPlanBasedLoader.java:226)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeQueryStatement(AbstractLoadPlanBasedLoader.java:190)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:121)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:86)
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.load(AbstractLoadPlanBasedEntityLoader.java:167)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4083)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:508)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:478)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:219)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:278)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:121)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:89)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1239)
+	at org.hibernate.internal.SessionImpl.access$1900(SessionImpl.java:203)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2804)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2778)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:1075)
+	at com.dev.mgm.dao.UserDAO.knowDeviceStatus(UserDAO.java:152)
+	at com.dev.mgm.user.controller.UserController.checkDeviceStatus(UserController.java:81)
+	at com.dev.mgm.DeviceMgmServices.checkDeviceStatus(DeviceMgmServices.java:28)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-20 17:40:15,488 INFO  [Thread-3] AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2002fc1d: startup date [Wed Dec 20 17:17:38 IST 2017]; root of context hierarchy
+2017-12-20 17:40:15,491 INFO  [Thread-3] AnnotationMBeanExporter: Unregistering JMX-exposed beans on shutdown
+2017-12-20 17:40:18,721 INFO  [main] DevicemanagementApplication: Starting DevicemanagementApplication on ranjit-vostro-1540 with PID 4608 (/home/ranjit/Documents/DeviceMGM/devicemanagement/target/classes started by ranjit in /home/ranjit/Documents/DeviceMGM/devicemanagement)
+2017-12-20 17:40:18,727 INFO  [main] DevicemanagementApplication: No active profile set, falling back to default profiles: default
+2017-12-20 17:40:18,839 INFO  [main] AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2002fc1d: startup date [Wed Dec 20 17:40:18 IST 2017]; root of context hierarchy
+2017-12-20 17:40:19,336 INFO  [background-preinit] Version: HV000001: Hibernate Validator 5.2.5.Final
+2017-12-20 17:40:22,277 INFO  [main] TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8082 (http)
+2017-12-20 17:40:22,306 INFO  [main] StandardService: Starting service [Tomcat]
+2017-12-20 17:40:22,309 INFO  [main] StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-12-20 17:40:22,635 INFO  [localhost-startStop-1] [/]: Initializing Spring embedded WebApplicationContext
+2017-12-20 17:40:22,636 INFO  [localhost-startStop-1] ContextLoader: Root WebApplicationContext: initialization completed in 3797 ms
+2017-12-20 17:40:22,932 INFO  [localhost-startStop-1] ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-20 17:40:22,943 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-20 17:40:22,945 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-20 17:40:22,946 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-20 17:40:22,946 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-20 17:40:23,570 INFO  [main] RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2002fc1d: startup date [Wed Dec 20 17:40:18 IST 2017]; root of context hierarchy
+2017-12-20 17:40:23,684 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/device/register],methods=[POST]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.DeviceMgmServices.registerUser(com.dev.mgm.bean.User)
+2017-12-20 17:40:23,686 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/device/check/{device_id}]}" onto public com.dev.mgm.bean.Device com.dev.mgm.DeviceMgmServices.checkDeviceStatus(java.lang.String)
+2017-12-20 17:40:23,686 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/device/deregister/{device_id}]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.DeviceMgmServices.deRegister(java.lang.String)
+2017-12-20 17:40:23,691 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/view],methods=[POST]}" onto public com.dev.mgm.bean.User com.dev.mgm.Test.view()
+2017-12-20 17:40:23,691 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/register]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.Test.registerUser()
+2017-12-20 17:40:23,692 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/viewall],methods=[GET]}" onto public java.util.List<com.dev.mgm.bean.User> com.dev.mgm.Test.viewAll()
+2017-12-20 17:40:23,692 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/check/{device_id}]}" onto public com.dev.mgm.bean.Device com.dev.mgm.Test.checkDeviceStatus(java.lang.String)
+2017-12-20 17:40:23,693 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/send],methods=[POST]}" onto public java.lang.String com.dev.mgm.Test.register(com.dev.mgm.bean.User)
+2017-12-20 17:40:23,697 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-20 17:40:23,705 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-20 17:40:23,815 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-20 17:40:23,822 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-20 17:40:24,009 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-20 17:40:24,455 INFO  [main] AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+2017-12-20 17:40:24,518 INFO  [main] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8082"]
+2017-12-20 17:40:24,551 INFO  [main] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8082"]
+2017-12-20 17:40:24,565 INFO  [main] NioSelectorPool: Using a shared selector for servlet write/read
+2017-12-20 17:40:24,649 INFO  [main] TomcatEmbeddedServletContainer: Tomcat started on port(s): 8082 (http)
+2017-12-20 17:40:24,687 INFO  [main] DevicemanagementApplication: Started DevicemanagementApplication in 6.571 seconds (JVM running for 8.097)
+2017-12-20 17:40:53,272 INFO  [http-nio-8082-exec-1] [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-20 17:40:53,272 INFO  [http-nio-8082-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-20 17:40:53,292 INFO  [http-nio-8082-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2017-12-20 17:40:53,524 INFO  [http-nio-8082-exec-1] Version: HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-20 17:40:53,527 INFO  [http-nio-8082-exec-1] Environment: HHH000206: hibernate.properties not found
+2017-12-20 17:40:54,057 INFO  [http-nio-8082-exec-1] MySessionFactory: Hibernate Configuration file loaded Successfully
+2017-12-20 17:40:54,106 INFO  [http-nio-8082-exec-1] Version: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-20 17:40:54,256 WARN  [http-nio-8082-exec-1] ConnectionProviderInitiator: HHH000022: c3p0 properties were encountered, but the c3p0 provider class was not found on the classpath; these properties are going to be ignored.
+2017-12-20 17:40:54,261 WARN  [http-nio-8082-exec-1] pooling: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-20 17:40:54,263 INFO  [http-nio-8082-exec-1] pooling: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/devicemgm]
+2017-12-20 17:40:54,264 INFO  [http-nio-8082-exec-1] pooling: HHH10001001: Connection properties: {user=root, password=****}
+2017-12-20 17:40:54,264 INFO  [http-nio-8082-exec-1] pooling: HHH10001003: Autocommit mode: false
+2017-12-20 17:40:54,269 INFO  [http-nio-8082-exec-1] DriverManagerConnectionProviderImpl: HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-12-20 17:40:54,312 INFO  [http-nio-8082-exec-1] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-20 17:40:54,388 INFO  [http-nio-8082-exec-1] LobCreatorBuilderImpl: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-12-20 17:40:55,210 INFO  [http-nio-8082-exec-1] access: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4ec8c4ef] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-12-20 17:40:55,275 INFO  [http-nio-8082-exec-1] MySessionFactory: Session factory object created
+2017-12-20 17:40:55,275 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-20 17:40:55,422 INFO  [http-nio-8082-exec-1] UserDAO: Deivce status not found ID0
+2017-12-20 17:40:55,889 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-20 17:40:55,900 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-20 17:40:55,905 WARN  [http-nio-8082-exec-2] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:56,028 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-20 17:40:56,056 INFO  [http-nio-8082-exec-3] UserDAO: Checking Validity
+2017-12-20 17:40:56,057 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-20 17:40:56,061 INFO  [http-nio-8082-exec-3] UserDAO: change status excecuting
+2017-12-20 17:40:56,072 INFO  [http-nio-8082-exec-3] UserDAO: Device Not Valid right now
+2017-12-20 17:40:56,072 INFO  [http-nio-8082-exec-3] UserDAO: Deivce status found
+2017-12-20 17:40:56,207 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-20 17:40:56,216 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-20 17:40:56,216 WARN  [http-nio-8082-exec-4] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:56,328 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-20 17:40:56,332 INFO  [http-nio-8082-exec-5] UserDAO: Checking Validity
+2017-12-20 17:40:56,332 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-20 17:40:56,335 INFO  [http-nio-8082-exec-5] UserDAO: change status excecuting
+2017-12-20 17:40:56,337 INFO  [http-nio-8082-exec-5] UserDAO: Device Not Valid right now
+2017-12-20 17:40:56,337 INFO  [http-nio-8082-exec-5] UserDAO: Deivce status found
+2017-12-20 17:40:56,463 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-20 17:40:56,468 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-20 17:40:56,470 WARN  [http-nio-8082-exec-6] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:56,705 INFO  [http-nio-8082-exec-7] MySessionFactory: session factory call
+2017-12-20 17:40:56,710 INFO  [http-nio-8082-exec-7] UserDAO: Checking Validity
+2017-12-20 17:40:56,710 INFO  [http-nio-8082-exec-7] UserDAO: Deivce status found
+2017-12-20 17:40:56,855 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-20 17:40:56,859 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-20 17:40:56,860 WARN  [http-nio-8082-exec-8] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:56,942 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-20 17:40:56,947 INFO  [http-nio-8082-exec-9] UserDAO: Checking Validity
+2017-12-20 17:40:56,947 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-20 17:40:56,950 INFO  [http-nio-8082-exec-9] UserDAO: change status excecuting
+2017-12-20 17:40:56,952 INFO  [http-nio-8082-exec-9] UserDAO: Device Not Valid right now
+2017-12-20 17:40:56,952 INFO  [http-nio-8082-exec-9] UserDAO: Deivce status found
+2017-12-20 17:40:57,110 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-20 17:40:57,116 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-20 17:40:57,116 WARN  [http-nio-8082-exec-10] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:57,246 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-20 17:40:57,250 INFO  [http-nio-8082-exec-1] UserDAO: Checking Validity
+2017-12-20 17:40:57,251 INFO  [http-nio-8082-exec-1] UserDAO: Deivce status found
+2017-12-20 17:40:57,423 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-20 17:40:57,428 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-20 17:40:57,428 WARN  [http-nio-8082-exec-2] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:57,556 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-20 17:40:57,560 INFO  [http-nio-8082-exec-3] UserDAO: Checking Validity
+2017-12-20 17:40:57,561 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-20 17:40:57,565 INFO  [http-nio-8082-exec-3] UserDAO: change status excecuting
+2017-12-20 17:40:57,568 INFO  [http-nio-8082-exec-3] UserDAO: Device Not Valid right now
+2017-12-20 17:40:57,568 INFO  [http-nio-8082-exec-3] UserDAO: Deivce status found
+2017-12-20 17:40:57,696 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-20 17:40:57,702 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-20 17:40:57,703 WARN  [http-nio-8082-exec-4] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:57,785 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-20 17:40:57,789 INFO  [http-nio-8082-exec-5] UserDAO: Checking Validity
+2017-12-20 17:40:57,789 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-20 17:40:57,792 INFO  [http-nio-8082-exec-5] UserDAO: change status excecuting
+2017-12-20 17:40:57,793 INFO  [http-nio-8082-exec-5] UserDAO: Device Not Valid right now
+2017-12-20 17:40:57,793 INFO  [http-nio-8082-exec-5] UserDAO: Deivce status found
+2017-12-20 17:40:57,942 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-20 17:40:57,950 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-20 17:40:57,951 WARN  [http-nio-8082-exec-6] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:58,029 INFO  [http-nio-8082-exec-7] MySessionFactory: session factory call
+2017-12-20 17:40:58,033 INFO  [http-nio-8082-exec-7] UserDAO: Checking Validity
+2017-12-20 17:40:58,033 INFO  [http-nio-8082-exec-7] UserDAO: Deivce status found
+2017-12-20 17:40:58,182 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-20 17:40:58,187 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-20 17:40:58,188 WARN  [http-nio-8082-exec-8] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:58,260 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-20 17:40:58,264 INFO  [http-nio-8082-exec-9] UserDAO: Checking Validity
+2017-12-20 17:40:58,264 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-20 17:40:58,270 INFO  [http-nio-8082-exec-9] UserDAO: change status excecuting
+2017-12-20 17:40:58,272 INFO  [http-nio-8082-exec-9] UserDAO: Device Not Valid right now
+2017-12-20 17:40:58,272 INFO  [http-nio-8082-exec-9] UserDAO: Deivce status found
+2017-12-20 17:40:58,397 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-20 17:40:58,401 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-20 17:40:58,402 WARN  [http-nio-8082-exec-10] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:58,478 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-20 17:40:58,482 INFO  [http-nio-8082-exec-1] UserDAO: Checking Validity
+2017-12-20 17:40:58,482 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-20 17:40:58,484 INFO  [http-nio-8082-exec-1] UserDAO: change status excecuting
+2017-12-20 17:40:58,487 INFO  [http-nio-8082-exec-1] UserDAO: Device Not Valid right now
+2017-12-20 17:40:58,487 INFO  [http-nio-8082-exec-1] UserDAO: Deivce status found
+2017-12-20 17:40:58,627 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-20 17:40:58,632 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-20 17:40:58,633 WARN  [http-nio-8082-exec-2] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:58,746 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-20 17:40:58,750 INFO  [http-nio-8082-exec-3] UserDAO: Checking Validity
+2017-12-20 17:40:58,750 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-20 17:40:58,753 INFO  [http-nio-8082-exec-3] UserDAO: change status excecuting
+2017-12-20 17:40:58,754 INFO  [http-nio-8082-exec-3] UserDAO: Device Not Valid right now
+2017-12-20 17:40:58,754 INFO  [http-nio-8082-exec-3] UserDAO: Deivce status found
+2017-12-20 17:40:58,883 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-20 17:40:58,888 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-20 17:40:58,889 WARN  [http-nio-8082-exec-4] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:58,952 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-20 17:40:58,956 INFO  [http-nio-8082-exec-5] UserDAO: Checking Validity
+2017-12-20 17:40:58,957 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-20 17:40:58,959 INFO  [http-nio-8082-exec-5] UserDAO: change status excecuting
+2017-12-20 17:40:58,960 INFO  [http-nio-8082-exec-5] UserDAO: Device Not Valid right now
+2017-12-20 17:40:58,961 INFO  [http-nio-8082-exec-5] UserDAO: Deivce status found
+2017-12-20 17:40:59,084 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-20 17:40:59,088 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-20 17:40:59,088 WARN  [http-nio-8082-exec-6] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:59,154 INFO  [http-nio-8082-exec-7] MySessionFactory: session factory call
+2017-12-20 17:40:59,159 INFO  [http-nio-8082-exec-7] UserDAO: Checking Validity
+2017-12-20 17:40:59,159 INFO  [http-nio-8082-exec-7] UserDAO: Deivce status found
+2017-12-20 17:40:59,285 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-20 17:40:59,289 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-20 17:40:59,290 WARN  [http-nio-8082-exec-8] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:59,353 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-20 17:40:59,358 INFO  [http-nio-8082-exec-9] UserDAO: Checking Validity
+2017-12-20 17:40:59,359 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-20 17:40:59,362 INFO  [http-nio-8082-exec-9] UserDAO: change status excecuting
+2017-12-20 17:40:59,363 INFO  [http-nio-8082-exec-9] UserDAO: Device Not Valid right now
+2017-12-20 17:40:59,363 INFO  [http-nio-8082-exec-9] UserDAO: Deivce status found
+2017-12-20 17:40:59,529 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-20 17:40:59,534 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-20 17:40:59,538 WARN  [http-nio-8082-exec-10] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:59,600 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-20 17:40:59,604 INFO  [http-nio-8082-exec-1] UserDAO: Checking Validity
+2017-12-20 17:40:59,605 INFO  [http-nio-8082-exec-1] UserDAO: Deivce status found
+2017-12-20 17:40:59,746 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-20 17:40:59,750 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-20 17:40:59,751 WARN  [http-nio-8082-exec-2] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-20 17:40:59,818 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-20 17:40:59,822 INFO  [http-nio-8082-exec-3] UserDAO: Checking Validity
+2017-12-20 17:40:59,823 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-20 17:40:59,826 INFO  [http-nio-8082-exec-3] UserDAO: change status excecuting
+2017-12-20 17:40:59,828 INFO  [http-nio-8082-exec-3] UserDAO: Device Not Valid right now
+2017-12-20 17:40:59,828 INFO  [http-nio-8082-exec-3] UserDAO: Deivce status found
+2017-12-20 17:40:59,953 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-20 17:40:59,957 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-20 17:40:59,957 WARN  [http-nio-8082-exec-4] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead

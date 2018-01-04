@@ -1,0 +1,1 @@
+2017-12-15 16:23:27,770 WARN  [http-nio-8082-exec-5] DefaultHandlerExceptionResolver: Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.dev.mgm.bean.MessageBean com.dev.mgm.DeviceMgmServices.registerUser(com.dev.mgm.bean.User)

@@ -1,0 +1,24 @@
+2017-12-15 16:18:21,725 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-15 16:18:21,730 INFO  [http-nio-8082-exec-3] UserDAO: Checking Validity
+2017-12-15 16:18:21,730 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-15 16:18:21,734 INFO  [http-nio-8082-exec-3] UserDAO: change status excecuting
+2017-12-15 16:18:21,737 INFO  [http-nio-8082-exec-3] UserDAO: Device Not Valid right now
+2017-12-15 16:18:21,737 INFO  [http-nio-8082-exec-3] UserDAO: Deivce status found
+2017-12-15 16:18:23,004 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-15 16:18:23,008 INFO  [http-nio-8082-exec-1] UserDAO: Checking Validity
+2017-12-15 16:18:23,008 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-15 16:18:23,011 INFO  [http-nio-8082-exec-1] UserDAO: change status excecuting
+2017-12-15 16:18:23,013 INFO  [http-nio-8082-exec-1] UserDAO: Device Not Valid right now
+2017-12-15 16:18:23,014 INFO  [http-nio-8082-exec-1] UserDAO: Deivce status found
+2017-12-15 16:18:25,218 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-15 16:18:25,221 INFO  [http-nio-8082-exec-2] UserDAO: Checking Validity
+2017-12-15 16:18:25,222 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-15 16:18:25,224 INFO  [http-nio-8082-exec-2] UserDAO: change status excecuting
+2017-12-15 16:18:25,225 INFO  [http-nio-8082-exec-2] UserDAO: Device Not Valid right now
+2017-12-15 16:18:25,226 INFO  [http-nio-8082-exec-2] UserDAO: Deivce status found
+2017-12-15 16:18:39,809 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-15 16:18:39,811 INFO  [http-nio-8082-exec-4] UserDAO: Checking Validity
+2017-12-15 16:18:39,812 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-15 16:18:39,814 INFO  [http-nio-8082-exec-4] UserDAO: change status excecuting
+2017-12-15 16:18:39,817 INFO  [http-nio-8082-exec-4] UserDAO: Device Not Valid right now
+2017-12-15 16:18:39,817 INFO  [http-nio-8082-exec-4] UserDAO: Deivce status found

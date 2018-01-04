@@ -1,0 +1,24 @@
+2017-12-15 16:00:04,471 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-15 16:00:05,272 INFO  [http-nio-8082-exec-6] UserDAO: Checking Validity
+2017-12-15 16:00:05,273 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-15 16:00:06,077 INFO  [http-nio-8082-exec-6] UserDAO: change status excecuting
+2017-12-15 16:00:06,884 INFO  [http-nio-8082-exec-6] UserDAO: Device Not Valid right now
+2017-12-15 16:00:06,884 INFO  [http-nio-8082-exec-6] UserDAO: Deivce status found
+2017-12-15 16:00:07,328 INFO  [http-nio-8082-exec-7] MySessionFactory: session factory call
+2017-12-15 16:00:08,094 INFO  [http-nio-8082-exec-5] UserDAO: Device Not Valid right now
+2017-12-15 16:00:08,094 INFO  [http-nio-8082-exec-5] UserDAO: Deivce status found
+2017-12-15 16:00:08,134 INFO  [http-nio-8082-exec-7] UserDAO: Checking Validity
+2017-12-15 16:00:08,134 INFO  [http-nio-8082-exec-7] MySessionFactory: session factory call
+2017-12-15 16:00:08,931 INFO  [http-nio-8082-exec-7] UserDAO: change status excecuting
+2017-12-15 16:00:09,460 INFO  [http-nio-8082-exec-7] UserDAO: Device Not Valid right now
+2017-12-15 16:00:09,460 INFO  [http-nio-8082-exec-7] UserDAO: Deivce status found
+2017-12-15 16:00:27,615 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-15 16:00:28,425 INFO  [http-nio-8082-exec-8] UserDAO: Checking Validity
+2017-12-15 16:00:28,426 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-15 16:00:29,219 INFO  [http-nio-8082-exec-8] UserDAO: change status excecuting
+2017-12-15 16:00:29,748 INFO  [http-nio-8082-exec-8] UserDAO: Device Not Valid right now
+2017-12-15 16:00:29,749 INFO  [http-nio-8082-exec-8] UserDAO: Deivce status found
+2017-12-15 16:00:37,695 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-15 16:00:38,497 INFO  [http-nio-8082-exec-10] UserDAO: Deivce status not found ID1785
+2017-12-15 16:00:44,366 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-15 16:00:45,165 INFO  [http-nio-8082-exec-1] UserDAO: Deivce status not found ID1000

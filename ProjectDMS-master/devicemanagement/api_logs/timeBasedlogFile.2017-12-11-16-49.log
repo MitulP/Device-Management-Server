@@ -1,0 +1,4 @@
+2017-12-11 16:49:00,008 INFO  [http-nio-8081-exec-1] access: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1008d876] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-12-11 16:49:00,076 INFO  [http-nio-8081-exec-1] MySessionFactory: Session factory object created
+2017-12-11 16:49:00,077 INFO  [http-nio-8081-exec-1] MySessionFactory: session factory call
+2017-12-11 16:49:00,294 INFO  [http-nio-8081-exec-1] UserDAO: Deivce found

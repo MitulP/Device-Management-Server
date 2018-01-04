@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true">
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+	    encoders are assigned the type
+	         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default
+	    <encoder>
+	      <pattern>%d %-5level [%thread] %logger{0}: %msg%n</pattern>
+	    </encoder>
+	  </appender>
+  
+  <appender name="TIME_BASED_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 		<file>api_logs/timeBasedlogFile.log</file>
+    	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">    	
+      		daily rollover
+      		<fileNamePattern>api_logs/timeBasedlogFile.%d{yyyy-MM-dd-HH-mm}.log</fileNamePattern>
+      		<maxHistory>200</maxHistory>
+    	</rollingPolicy>
+
+    	<encoder>
+      	 <pattern>%d %-5level [%thread] %logger{0}: %msg%n</pattern>
+    	</encoder>
+  	</appender>
+  
+  
+  <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">
+    <connectionSource class="ch.qos.logback.core.db.DriverManagerConnectionSource">
+     
+      <driverClass>com.mysql.jdbc.Driver</driverClass>
+      <url>jdbc:mysql://localhost:3306/devicemgm</url>
+      <user>root</user>
+      <password>ranjit</password>
+      
+    </connectionSource>
+     
+  </appender>
+  
+  <root level="info">
+ 		<appender-ref ref="STDOUT" />
+ 		<appender-ref ref="TIME_BASED_FILE"/>
+  
+  </root>
+  <logger name="com.dev.mgm.log" additivity="false" level="DEBUG">
+    <appender-ref ref="DB" />
+    <appender-ref ref="STDOUT" />
+
+ </logger>
+</configuration>

@@ -1,0 +1,17 @@
+2017-12-14 23:06:37,759 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-14 23:06:37,764 INFO  [http-nio-8082-exec-4] UserDAO: Device found
+2017-12-14 23:06:37,764 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-14 23:06:37,765 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-14 23:06:37,766 WARN  [http-nio-8082-exec-4] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-14 23:06:45,101 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-14 23:06:45,105 INFO  [http-nio-8082-exec-5] UserDAO: Device found
+2017-12-14 23:06:45,105 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-14 23:06:45,106 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-14 23:06:45,107 WARN  [http-nio-8082-exec-5] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-14 23:06:45,124 INFO  [http-nio-8082-exec-5] UserDAO: user register complet successfully
+2017-12-14 23:06:45,125 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-14 23:06:45,127 INFO  [http-nio-8082-exec-5] UserDAO: Checking Validity
+2017-12-14 23:06:45,127 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-14 23:06:45,130 INFO  [http-nio-8082-exec-5] UserDAO: change status excecuting
+2017-12-14 23:06:45,132 INFO  [http-nio-8082-exec-5] UserDAO: Device Not Valid right now
+2017-12-14 23:06:45,132 INFO  [http-nio-8082-exec-5] UserDAO: Deivce status found

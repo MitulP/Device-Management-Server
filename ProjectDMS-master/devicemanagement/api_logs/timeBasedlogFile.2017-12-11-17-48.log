@@ -1,0 +1,23 @@
+2017-12-11 17:48:00,200 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/register],methods=[POST]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.DeviceMgmServices.registerUser(com.dev.mgm.bean.User)
+2017-12-11 17:48:00,246 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/check/{device_id}]}" onto public com.dev.mgm.bean.Device com.dev.mgm.DeviceMgmServices.checkDeviceStatus(java.lang.String)
+2017-12-11 17:48:00,247 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/deregister/{device_id}]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.DeviceMgmServices.deRegister(java.lang.String)
+2017-12-11 17:48:00,261 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/view],methods=[POST]}" onto public com.dev.mgm.bean.User com.dev.mgm.Test.view()
+2017-12-11 17:48:00,262 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/viewall],methods=[GET]}" onto public java.util.List<com.dev.mgm.bean.User> com.dev.mgm.Test.viewAll()
+2017-12-11 17:48:00,262 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/register]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.Test.registerUser()
+2017-12-11 17:48:00,263 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/check/{device_id}]}" onto public com.dev.mgm.bean.Device com.dev.mgm.Test.checkDeviceStatus(java.lang.String)
+2017-12-11 17:48:00,267 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/send],methods=[POST]}" onto public java.lang.String com.dev.mgm.Test.register(com.dev.mgm.bean.User)
+2017-12-11 17:48:00,272 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-11 17:48:00,277 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-11 17:48:00,360 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 17:48:00,361 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 17:48:00,461 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-11 17:48:00,885 INFO  [main] AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+2017-12-11 17:48:00,955 INFO  [main] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2017-12-11 17:48:00,984 INFO  [main] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2017-12-11 17:48:00,996 INFO  [main] NioSelectorPool: Using a shared selector for servlet write/read
+2017-12-11 17:48:01,049 INFO  [main] TomcatEmbeddedServletContainer: Tomcat started on port(s): 8081 (http)
+2017-12-11 17:48:01,064 INFO  [main] DevicemanagementApplication: Started DevicemanagementApplication in 7.285 seconds (JVM running for 8.624)
+2017-12-11 17:48:05,875 INFO  [http-nio-8081-exec-1] [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-11 17:48:05,875 INFO  [http-nio-8081-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-11 17:48:05,903 INFO  [http-nio-8081-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-12-11 17:48:05,958 WARN  [http-nio-8081-exec-1] PageNotFound: Request method 'GET' not supported

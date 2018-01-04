@@ -1,0 +1,4 @@
+2017-12-15 16:25:02,882 INFO  [http-nio-8082-exec-9] UserDAO: check device
+2017-12-15 16:25:02,884 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-15 16:25:25,536 WARN  [http-nio-8082-exec-10] DefaultHandlerExceptionResolver: Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@52292550; line: 3, column: 3]

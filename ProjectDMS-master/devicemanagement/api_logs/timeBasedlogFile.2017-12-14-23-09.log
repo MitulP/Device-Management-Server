@@ -1,0 +1,6 @@
+2017-12-14 23:09:30,788 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-14 23:09:30,795 INFO  [http-nio-8082-exec-3] UserDAO: Checking Validity
+2017-12-14 23:09:30,795 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-14 23:09:30,799 INFO  [http-nio-8082-exec-3] UserDAO: change status excecuting
+2017-12-14 23:09:30,806 INFO  [http-nio-8082-exec-3] UserDAO: Device Not Valid right now
+2017-12-14 23:09:30,806 INFO  [http-nio-8082-exec-3] UserDAO: Deivce status found

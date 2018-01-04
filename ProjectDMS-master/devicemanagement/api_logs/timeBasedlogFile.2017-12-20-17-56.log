@@ -1,0 +1,6 @@
+2017-12-20 17:56:55,740 INFO  [Thread-3] AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4009e306: startup date [Wed Dec 20 17:54:31 IST 2017]; root of context hierarchy
+2017-12-20 17:56:55,745 INFO  [Thread-3] AnnotationMBeanExporter: Unregistering JMX-exposed beans on shutdown
+2017-12-20 17:56:58,367 INFO  [main] DevicemanagementApplication: Starting DevicemanagementApplication on ranjit-vostro-1540 with PID 5191 (/home/ranjit/Documents/DeviceMGM/devicemanagement/target/classes started by ranjit in /home/ranjit/Documents/DeviceMGM/devicemanagement)
+2017-12-20 17:56:58,374 INFO  [main] DevicemanagementApplication: No active profile set, falling back to default profiles: default
+2017-12-20 17:56:58,558 INFO  [main] AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4009e306: startup date [Wed Dec 20 17:56:58 IST 2017]; root of context hierarchy
+2017-12-20 17:56:59,050 INFO  [background-preinit] Version: HV000001: Hibernate Validator 5.2.5.Final

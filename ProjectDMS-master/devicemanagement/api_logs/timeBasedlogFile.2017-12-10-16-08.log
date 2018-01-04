@@ -1,0 +1,4 @@
+2017-12-10 16:08:34,668 INFO  [http-nio-8081-exec-1] [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-10 16:08:34,715 INFO  [http-nio-8081-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-10 16:08:34,747 INFO  [http-nio-8081-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2017-12-10 16:08:34,886 WARN  [http-nio-8081-exec-1] PageNotFound: Request method 'GET' not supported

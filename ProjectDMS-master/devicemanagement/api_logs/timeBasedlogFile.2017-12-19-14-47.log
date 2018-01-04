@@ -1,0 +1,10 @@
+2017-12-19 14:47:03,066 INFO  [http-nio-8081-exec-1] MySessionFactory: Session factory object created
+2017-12-19 14:47:03,067 INFO  [http-nio-8081-exec-1] MySessionFactory: session factory call
+2017-12-19 14:47:03,139 INFO  [http-nio-8081-exec-1] UserDAO: check device
+2017-12-19 14:47:03,139 INFO  [http-nio-8081-exec-1] MySessionFactory: session factory call
+2017-12-19 14:47:41,665 INFO  [http-nio-8081-exec-3] MySessionFactory: session factory call
+2017-12-19 14:47:41,666 INFO  [http-nio-8081-exec-3] UserDAO: check device
+2017-12-19 14:47:41,666 INFO  [http-nio-8081-exec-3] MySessionFactory: session factory call
+2017-12-19 14:47:46,785 INFO  [http-nio-8081-exec-4] MySessionFactory: session factory call
+2017-12-19 14:47:46,787 INFO  [http-nio-8081-exec-4] UserDAO: check device
+2017-12-19 14:47:46,787 INFO  [http-nio-8081-exec-4] MySessionFactory: session factory call

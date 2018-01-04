@@ -1,0 +1,49 @@
+2017-12-07 14:58:21,444 INFO  [http-nio-8080-exec-1] [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-07 14:58:21,447 INFO  [http-nio-8080-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-07 14:58:21,475 INFO  [http-nio-8080-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2017-12-07 14:58:21,745 INFO  [http-nio-8080-exec-1] Version: HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-07 14:58:21,748 INFO  [http-nio-8080-exec-1] Environment: HHH000206: hibernate.properties not found
+2017-12-07 14:58:22,253 INFO  [http-nio-8080-exec-1] MySessionFactory: Hibernate Configuration file loaded Successfully
+2017-12-07 14:58:22,298 INFO  [http-nio-8080-exec-1] Version: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 14:58:22,418 WARN  [http-nio-8080-exec-1] pooling: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 14:58:22,420 INFO  [http-nio-8080-exec-1] pooling: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/devicemgm]
+2017-12-07 14:58:22,421 INFO  [http-nio-8080-exec-1] pooling: HHH10001001: Connection properties: {user=root, password=****}
+2017-12-07 14:58:22,421 INFO  [http-nio-8080-exec-1] pooling: HHH10001003: Autocommit mode: false
+2017-12-07 14:58:22,424 INFO  [http-nio-8080-exec-1] DriverManagerConnectionProviderImpl: HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-12-07 14:58:22,474 INFO  [http-nio-8080-exec-1] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 14:58:22,542 INFO  [http-nio-8080-exec-1] LobCreatorBuilderImpl: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-12-07 14:58:23,384 INFO  [http-nio-8080-exec-1] access: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@21df12e4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-12-07 14:58:23,429 INFO  [http-nio-8080-exec-1] MySessionFactory: Session factory object created
+2017-12-07 14:58:23,429 INFO  [http-nio-8080-exec-1] MySessionFactory: session factory call
+2017-12-07 14:58:23,679 INFO  [http-nio-8080-exec-1] UserDAO: Deivce status found
+2017-12-07 14:58:46,183 INFO  [Thread-3] AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c40365c: startup date [Thu Dec 07 14:57:54 IST 2017]; root of context hierarchy
+2017-12-07 14:58:46,188 INFO  [Thread-3] AnnotationMBeanExporter: Unregistering JMX-exposed beans on shutdown
+2017-12-07 14:58:48,925 INFO  [main] DevicemanagementApplication: Starting DevicemanagementApplication on ranjit-vostro-1540 with PID 14192 (/home/ranjit/Documents/DeviceMGM/devicemanagement/target/classes started by ranjit in /home/ranjit/Documents/DeviceMGM/devicemanagement)
+2017-12-07 14:58:48,938 INFO  [main] DevicemanagementApplication: No active profile set, falling back to default profiles: default
+2017-12-07 14:58:49,099 INFO  [main] AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c40365c: startup date [Thu Dec 07 14:58:49 IST 2017]; root of context hierarchy
+2017-12-07 14:58:49,464 INFO  [background-preinit] Version: HV000001: Hibernate Validator 5.2.5.Final
+2017-12-07 14:58:52,010 INFO  [main] TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8080 (http)
+2017-12-07 14:58:52,044 INFO  [main] StandardService: Starting service [Tomcat]
+2017-12-07 14:58:52,047 INFO  [main] StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-12-07 14:58:52,297 INFO  [localhost-startStop-1] [/]: Initializing Spring embedded WebApplicationContext
+2017-12-07 14:58:52,299 INFO  [localhost-startStop-1] ContextLoader: Root WebApplicationContext: initialization completed in 3200 ms
+2017-12-07 14:58:52,686 INFO  [localhost-startStop-1] ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-07 14:58:52,701 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-07 14:58:52,702 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-07 14:58:52,703 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-07 14:58:52,703 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-07 14:58:53,352 INFO  [main] RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c40365c: startup date [Thu Dec 07 14:58:49 IST 2017]; root of context hierarchy
+2017-12-07 14:58:53,510 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/register]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.DeviceMgmServices.registerUser()
+2017-12-07 14:58:53,513 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/check]}" onto public com.dev.mgm.bean.Device com.dev.mgm.DeviceMgmServices.checkDeviceStatus()
+2017-12-07 14:58:53,514 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/first]}" onto public java.lang.String com.dev.mgm.admin.First.Hello()
+2017-12-07 14:58:53,519 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-07 14:58:53,520 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-07 14:58:53,580 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 14:58:53,580 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 14:58:53,644 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-07 14:58:53,938 INFO  [main] AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+2017-12-07 14:58:53,981 INFO  [main] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2017-12-07 14:58:54,002 INFO  [main] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2017-12-07 14:58:54,010 INFO  [main] NioSelectorPool: Using a shared selector for servlet write/read
+2017-12-07 14:58:54,049 INFO  [main] TomcatEmbeddedServletContainer: Tomcat started on port(s): 8080 (http)
+2017-12-07 14:58:54,057 INFO  [main] DevicemanagementApplication: Started DevicemanagementApplication in 5.816 seconds (JVM running for 7.266)

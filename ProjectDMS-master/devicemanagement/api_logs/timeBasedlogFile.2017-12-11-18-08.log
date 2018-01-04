@@ -1,0 +1,2 @@
+2017-12-11 18:08:49,102 INFO  [Thread-3] AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bedc48a: startup date [Mon Dec 11 17:47:54 IST 2017]; root of context hierarchy
+2017-12-11 18:08:49,109 INFO  [Thread-3] AnnotationMBeanExporter: Unregistering JMX-exposed beans on shutdown

@@ -1,0 +1,28 @@
+2017-12-12 23:35:21,027 INFO  [http-nio-8082-exec-1] [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-12 23:35:21,031 INFO  [http-nio-8082-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-12 23:35:21,052 INFO  [http-nio-8082-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-12-12 23:35:21,396 INFO  [http-nio-8082-exec-1] Version: HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-12 23:35:21,398 INFO  [http-nio-8082-exec-1] Environment: HHH000206: hibernate.properties not found
+2017-12-12 23:35:21,828 INFO  [http-nio-8082-exec-1] MySessionFactory: Hibernate Configuration file loaded Successfully
+2017-12-12 23:35:21,867 INFO  [http-nio-8082-exec-1] Version: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-12 23:35:21,959 WARN  [http-nio-8082-exec-1] pooling: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-12 23:35:21,960 INFO  [http-nio-8082-exec-1] pooling: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/devicemgm]
+2017-12-12 23:35:21,961 INFO  [http-nio-8082-exec-1] pooling: HHH10001001: Connection properties: {user=root, password=****}
+2017-12-12 23:35:21,961 INFO  [http-nio-8082-exec-1] pooling: HHH10001003: Autocommit mode: false
+2017-12-12 23:35:21,964 INFO  [http-nio-8082-exec-1] DriverManagerConnectionProviderImpl: HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-12-12 23:35:21,991 INFO  [http-nio-8082-exec-1] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-12 23:35:22,027 INFO  [http-nio-8082-exec-1] LobCreatorBuilderImpl: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-12-12 23:35:22,486 INFO  [http-nio-8082-exec-1] access: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3f333a42] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-12-12 23:35:22,532 INFO  [http-nio-8082-exec-1] MySessionFactory: Session factory object created
+2017-12-12 23:35:22,533 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-12 23:35:22,671 INFO  [http-nio-8082-exec-1] UserDAO: Deivce already exists
+2017-12-12 23:35:22,671 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-12 23:35:22,675 INFO  [http-nio-8082-exec-1] MySessionFactory: session factory call
+2017-12-12 23:35:22,677 WARN  [http-nio-8082-exec-1] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-12 23:35:28,588 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-12 23:35:28,593 INFO  [http-nio-8082-exec-2] UserDAO: Deivce ready to register
+2017-12-12 23:35:48,914 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-12 23:35:48,976 INFO  [http-nio-8082-exec-3] UserDAO: Deivce already exists
+2017-12-12 23:35:48,977 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-12 23:35:48,978 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-12 23:35:48,979 WARN  [http-nio-8082-exec-3] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead

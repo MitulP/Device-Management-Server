@@ -1,0 +1,17 @@
+2017-12-11 17:49:00,412 INFO  [http-nio-8081-exec-3] Version: HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-11 17:49:00,416 INFO  [http-nio-8081-exec-3] Environment: HHH000206: hibernate.properties not found
+2017-12-11 17:49:00,840 INFO  [http-nio-8081-exec-3] MySessionFactory: Hibernate Configuration file loaded Successfully
+2017-12-11 17:49:00,884 INFO  [http-nio-8081-exec-3] Version: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-11 17:49:00,997 WARN  [http-nio-8081-exec-3] pooling: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-11 17:49:00,998 INFO  [http-nio-8081-exec-3] pooling: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/devicemgm]
+2017-12-11 17:49:00,999 INFO  [http-nio-8081-exec-3] pooling: HHH10001001: Connection properties: {user=root, password=****}
+2017-12-11 17:49:00,999 INFO  [http-nio-8081-exec-3] pooling: HHH10001003: Autocommit mode: false
+2017-12-11 17:49:01,002 INFO  [http-nio-8081-exec-3] DriverManagerConnectionProviderImpl: HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-12-11 17:49:01,043 INFO  [http-nio-8081-exec-3] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-11 17:49:01,099 INFO  [http-nio-8081-exec-3] LobCreatorBuilderImpl: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-12-11 17:49:02,024 INFO  [http-nio-8081-exec-3] access: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5c8c421a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-12-11 17:49:02,096 INFO  [http-nio-8081-exec-3] MySessionFactory: Session factory object created
+2017-12-11 17:49:02,097 INFO  [http-nio-8081-exec-3] MySessionFactory: session factory call
+2017-12-11 17:49:02,351 INFO  [http-nio-8081-exec-3] UserDAO: Deivce status found
+2017-12-11 17:49:14,022 INFO  [http-nio-8081-exec-4] MySessionFactory: session factory call
+2017-12-11 17:49:14,035 INFO  [http-nio-8081-exec-4] UserDAO: Deivce status not found ID353655555

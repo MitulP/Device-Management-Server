@@ -1,0 +1,17 @@
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/admin/controller/LoggingController.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/admin/serv/AdminWebPortalService.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/admin/dao/FilterLoggingDAO.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/User.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/admin/dao/MasterDeviceDAO.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/Device.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/CalendarBigIntType.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/MasterDeviceJSON.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/DeviceStatus.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/LoggingEventJSON.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/LoggingEvent.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/admin/serv/ServletInitializer.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/admin/serv/db/MySessionFactory.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/admin/serv/AdminWebServiceApplication.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/Admin.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/admin/dao/LoggingDAO.java
+/home/ranjit/Documents/DeviceMGM/AdminwebService/src/main/java/com/dev/mgm/bean/MessageBean.java

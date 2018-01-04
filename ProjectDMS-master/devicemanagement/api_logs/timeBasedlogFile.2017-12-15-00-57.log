@@ -1,0 +1,22 @@
+2017-12-15 00:57:05,925 INFO  [http-nio-8082-exec-3] UserDAO: check device
+2017-12-15 00:57:05,926 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-15 00:57:05,931 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-15 00:57:05,932 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-15 00:57:05,933 WARN  [http-nio-8082-exec-3] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-15 00:57:05,946 INFO  [http-nio-8082-exec-3] UserDAO: user register complet successfully
+2017-12-15 00:57:05,946 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-15 00:57:05,948 INFO  [http-nio-8082-exec-3] UserDAO: Checking Validity
+2017-12-15 00:57:05,949 INFO  [http-nio-8082-exec-3] UserDAO: Deivce status found
+2017-12-15 00:57:24,103 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-15 00:57:24,107 INFO  [http-nio-8082-exec-4] UserDAO: Checking Validity
+2017-12-15 00:57:24,107 INFO  [http-nio-8082-exec-4] UserDAO: Deivce status found
+2017-12-15 00:57:57,097 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-15 00:57:57,101 INFO  [http-nio-8082-exec-5] UserDAO: Deivce found
+2017-12-15 00:57:57,104 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-15 00:57:57,105 WARN  [http-nio-8082-exec-5] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-15 00:57:57,108 INFO  [http-nio-8082-exec-5] UserDAO: user deleted successfully
+2017-12-15 00:57:57,111 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-15 00:57:57,115 INFO  [http-nio-8082-exec-5] UserDAO: Deivce found
+2017-12-15 00:57:57,116 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-15 00:57:57,117 WARN  [http-nio-8082-exec-5] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-15 00:57:57,119 INFO  [http-nio-8082-exec-5] UserDAO: device not found

@@ -1,0 +1,5 @@
+2017-12-15 00:06:01,875 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-15 00:06:03,829 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
+2017-12-15 00:06:04,658 INFO  [http-nio-8082-exec-6] MySessionFactory: session factory call
+2017-12-15 00:06:05,175 INFO  [http-nio-8082-exec-7] MySessionFactory: session factory call
+2017-12-15 00:06:09,632 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call

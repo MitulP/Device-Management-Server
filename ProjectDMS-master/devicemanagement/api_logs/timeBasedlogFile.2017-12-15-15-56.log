@@ -1,0 +1,12 @@
+2017-12-15 15:56:48,851 INFO  [http-nio-8082-exec-1] [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 15:56:48,852 INFO  [http-nio-8082-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 15:56:48,868 INFO  [http-nio-8082-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2017-12-15 15:56:49,005 INFO  [http-nio-8082-exec-1] Version: HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-15 15:56:49,009 INFO  [http-nio-8082-exec-1] Environment: HHH000206: hibernate.properties not found
+2017-12-15 15:56:49,352 INFO  [http-nio-8082-exec-1] MySessionFactory: Hibernate Configuration file loaded Successfully
+2017-12-15 15:56:49,395 INFO  [http-nio-8082-exec-1] Version: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-15 15:56:49,622 WARN  [http-nio-8082-exec-1] pooling: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-15 15:56:49,623 INFO  [http-nio-8082-exec-1] pooling: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://devicemgm.c3cvvpfexnwh.us-east-2.rds.amazonaws.com:3306/devicedb]
+2017-12-15 15:56:49,623 INFO  [http-nio-8082-exec-1] pooling: HHH10001001: Connection properties: {user=root, password=****}
+2017-12-15 15:56:49,624 INFO  [http-nio-8082-exec-1] pooling: HHH10001003: Autocommit mode: false
+2017-12-15 15:56:49,626 INFO  [http-nio-8082-exec-1] DriverManagerConnectionProviderImpl: HHH000115: Hibernate connection pool size: 10 (min=1)

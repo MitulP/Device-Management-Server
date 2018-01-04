@@ -1,0 +1,12 @@
+2017-12-15 00:56:17,528 INFO  [http-nio-8082-exec-2] UserDAO: check device
+2017-12-15 00:56:17,532 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-15 00:56:17,551 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-15 00:56:17,552 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-15 00:56:17,553 WARN  [http-nio-8082-exec-2] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-15 00:56:17,635 INFO  [http-nio-8082-exec-2] UserDAO: user register complet successfully
+2017-12-15 00:56:17,636 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-15 00:56:17,638 INFO  [http-nio-8082-exec-2] UserDAO: Checking Validity
+2017-12-15 00:56:17,639 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-15 00:56:17,642 INFO  [http-nio-8082-exec-2] UserDAO: change status excecuting
+2017-12-15 00:56:17,648 INFO  [http-nio-8082-exec-2] UserDAO: Device Not Valid right now
+2017-12-15 00:56:17,648 INFO  [http-nio-8082-exec-2] UserDAO: Deivce status found

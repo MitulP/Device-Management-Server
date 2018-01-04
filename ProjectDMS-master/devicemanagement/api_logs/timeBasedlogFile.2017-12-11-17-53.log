@@ -1,0 +1,2 @@
+2017-12-11 17:53:54,227 INFO  [http-nio-8081-exec-2] MySessionFactory: session factory call
+2017-12-11 17:53:54,258 INFO  [http-nio-8081-exec-2] UserDAO: Deivce already exists

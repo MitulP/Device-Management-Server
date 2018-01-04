@@ -1,0 +1,7 @@
+2017-12-14 23:37:14,928 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-14 23:37:14,936 INFO  [http-nio-8082-exec-3] UserDAO: Device found
+2017-12-14 23:37:14,936 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-14 23:37:14,937 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-14 23:37:47,155 INFO  [RMI TCP Connection(2)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+2017-12-14 23:37:47,156 INFO  [RMI TCP Connection(2)-127.0.0.1] AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6adbc9d: startup date [Thu Dec 14 23:32:47 IST 2017]; root of context hierarchy
+2017-12-14 23:37:47,158 INFO  [RMI TCP Connection(2)-127.0.0.1] AnnotationMBeanExporter: Unregistering JMX-exposed beans on shutdown

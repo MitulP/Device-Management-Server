@@ -1,0 +1,7 @@
+2017-12-19 14:39:52,103 INFO  [RMI TCP Connection(2)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+2017-12-19 14:39:52,106 INFO  [RMI TCP Connection(2)-127.0.0.1] AnnotationConfigEmbeddedWebApplicationContext: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b7cc17c: startup date [Tue Dec 19 14:14:24 IST 2017]; root of context hierarchy
+2017-12-19 14:39:52,109 INFO  [RMI TCP Connection(2)-127.0.0.1] AnnotationMBeanExporter: Unregistering JMX-exposed beans on shutdown
+2017-12-19 14:39:58,958 INFO  [main] DevicemanagementApplication: Starting DevicemanagementApplication on ranjit-vostro-1540 with PID 13545 (/home/ranjit/Documents/DeviceMGM/devicemanagement/target/classes started by ranjit in /home/ranjit/Documents/DeviceMGM/devicemanagement)
+2017-12-19 14:39:58,962 INFO  [main] DevicemanagementApplication: No active profile set, falling back to default profiles: default
+2017-12-19 14:39:59,024 INFO  [main] AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b7cc17c: startup date [Tue Dec 19 14:39:59 IST 2017]; root of context hierarchy
+2017-12-19 14:39:59,111 INFO  [background-preinit] Version: HV000001: Hibernate Validator 5.2.5.Final

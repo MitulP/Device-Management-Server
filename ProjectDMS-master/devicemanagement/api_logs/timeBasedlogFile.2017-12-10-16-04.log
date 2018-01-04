@@ -1,0 +1,33 @@
+2017-12-10 16:04:42,004 INFO  [main] DevicemanagementApplication: Starting DevicemanagementApplication on ranjit-vostro-1540 with PID 9701 (/home/ranjit/Documents/DeviceMGM/devicemanagement/target/classes started by ranjit in /home/ranjit/Documents/DeviceMGM/devicemanagement)
+2017-12-10 16:04:42,129 INFO  [main] DevicemanagementApplication: No active profile set, falling back to default profiles: default
+2017-12-10 16:04:42,344 INFO  [main] AnnotationConfigEmbeddedWebApplicationContext: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c40365c: startup date [Sun Dec 10 16:04:42 IST 2017]; root of context hierarchy
+2017-12-10 16:04:43,102 INFO  [background-preinit] Version: HV000001: Hibernate Validator 5.2.5.Final
+2017-12-10 16:04:49,202 INFO  [main] TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 8081 (http)
+2017-12-10 16:04:49,264 INFO  [main] StandardService: Starting service [Tomcat]
+2017-12-10 16:04:49,267 INFO  [main] StandardEngine: Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-12-10 16:04:49,891 INFO  [localhost-startStop-1] [/]: Initializing Spring embedded WebApplicationContext
+2017-12-10 16:04:49,892 INFO  [localhost-startStop-1] ContextLoader: Root WebApplicationContext: initialization completed in 7549 ms
+2017-12-10 16:04:50,191 INFO  [localhost-startStop-1] ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-10 16:04:50,199 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-10 16:04:50,217 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-10 16:04:50,218 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-10 16:04:50,218 INFO  [localhost-startStop-1] FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-10 16:04:50,966 INFO  [main] RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c40365c: startup date [Sun Dec 10 16:04:42 IST 2017]; root of context hierarchy
+2017-12-10 16:04:51,086 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/register],methods=[POST]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.DeviceMgmServices.registerUser(com.dev.mgm.bean.User)
+2017-12-10 16:04:51,088 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/deregister/{device_id}]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.DeviceMgmServices.deRegister(java.lang.String)
+2017-12-10 16:04:51,088 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/check/{device_id}]}" onto public com.dev.mgm.bean.Device com.dev.mgm.DeviceMgmServices.checkDeviceStatus(java.lang.String)
+2017-12-10 16:04:51,090 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/register]}" onto public com.dev.mgm.bean.MessageBean com.dev.mgm.Test.registerUser()
+2017-12-10 16:04:51,091 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/view],methods=[POST]}" onto public com.dev.mgm.bean.User com.dev.mgm.Test.view()
+2017-12-10 16:04:51,092 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/check/{device_id}]}" onto public com.dev.mgm.bean.Device com.dev.mgm.Test.checkDeviceStatus(java.lang.String)
+2017-12-10 16:04:51,092 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/test/send],methods=[POST]}" onto public java.lang.String com.dev.mgm.Test.register(com.dev.mgm.bean.User)
+2017-12-10 16:04:51,097 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-10 16:04:51,098 INFO  [main] RequestMappingHandlerMapping: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-10 16:04:51,154 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-10 16:04:51,154 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-10 16:04:51,225 INFO  [main] SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-10 16:04:51,658 INFO  [main] AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+2017-12-10 16:04:51,710 INFO  [main] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2017-12-10 16:04:51,765 INFO  [main] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2017-12-10 16:04:51,848 INFO  [main] NioSelectorPool: Using a shared selector for servlet write/read
+2017-12-10 16:04:51,876 INFO  [main] TomcatEmbeddedServletContainer: Tomcat started on port(s): 8081 (http)
+2017-12-10 16:04:51,907 INFO  [main] DevicemanagementApplication: Started DevicemanagementApplication in 11.895 seconds (JVM running for 28.401)

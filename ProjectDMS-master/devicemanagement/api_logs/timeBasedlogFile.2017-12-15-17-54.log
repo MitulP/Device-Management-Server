@@ -1,0 +1,11 @@
+2017-12-15 17:54:04,622 INFO  [http-nio-8082-exec-2] MySessionFactory: session factory call
+2017-12-15 17:54:04,628 INFO  [http-nio-8082-exec-2] UserDAO: Deivce found
+2017-12-15 17:54:10,031 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-15 17:54:10,076 INFO  [http-nio-8082-exec-3] UserDAO: Deivce found
+2017-12-15 17:54:18,609 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-15 17:54:18,625 INFO  [http-nio-8082-exec-4] UserDAO: Deivce found
+2017-12-15 17:54:18,628 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-15 17:54:18,628 WARN  [http-nio-8082-exec-4] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2017-12-15 17:54:18,630 INFO  [http-nio-8082-exec-4] UserDAO: device not found
+2017-12-15 17:54:18,630 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-15 17:54:18,633 INFO  [http-nio-8082-exec-4] UserDAO: Deivce found

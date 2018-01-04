@@ -1,0 +1,20 @@
+2017-12-07 15:15:12,957 INFO  [http-nio-8080-exec-1] [/]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-07 15:15:12,962 INFO  [http-nio-8080-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-07 15:15:13,017 INFO  [http-nio-8080-exec-1] DispatcherServlet: FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2017-12-07 15:15:13,290 INFO  [http-nio-8080-exec-1] Version: HHH000412: Hibernate Core {5.2.12.Final}
+2017-12-07 15:15:13,292 INFO  [http-nio-8080-exec-1] Environment: HHH000206: hibernate.properties not found
+2017-12-07 15:15:13,768 INFO  [http-nio-8080-exec-1] MySessionFactory: Hibernate Configuration file loaded Successfully
+2017-12-07 15:15:13,832 INFO  [http-nio-8080-exec-1] Version: HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-07 15:15:14,029 WARN  [http-nio-8080-exec-1] pooling: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-12-07 15:15:14,035 INFO  [http-nio-8080-exec-1] pooling: HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/devicemgm]
+2017-12-07 15:15:14,036 INFO  [http-nio-8080-exec-1] pooling: HHH10001001: Connection properties: {user=root, password=****}
+2017-12-07 15:15:14,036 INFO  [http-nio-8080-exec-1] pooling: HHH10001003: Autocommit mode: false
+2017-12-07 15:15:14,041 INFO  [http-nio-8080-exec-1] DriverManagerConnectionProviderImpl: HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-12-07 15:15:14,107 INFO  [http-nio-8080-exec-1] Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-07 15:15:14,186 INFO  [http-nio-8080-exec-1] LobCreatorBuilderImpl: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-12-07 15:15:15,189 INFO  [http-nio-8080-exec-1] access: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@459b2486] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-12-07 15:15:15,233 INFO  [http-nio-8080-exec-1] MySessionFactory: Session factory object created
+2017-12-07 15:15:15,234 INFO  [http-nio-8080-exec-1] MySessionFactory: session factory call
+2017-12-07 15:15:15,433 INFO  [http-nio-8080-exec-1] UserDAO: Deivce status found
+2017-12-07 15:15:30,191 INFO  [http-nio-8080-exec-2] MySessionFactory: session factory call
+2017-12-07 15:15:30,195 INFO  [http-nio-8080-exec-2] UserDAO: Deivce status found

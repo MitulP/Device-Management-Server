@@ -1,0 +1,4 @@
+2017-12-08 15:42:26,353 INFO  [http-nio-8080-exec-2] MySessionFactory: session factory call
+2017-12-08 15:42:28,354 INFO  [http-nio-8080-exec-2] UserDAO: Deivce ready to register
+2017-12-08 15:42:28,355 INFO  [http-nio-8080-exec-2] MySessionFactory: session factory call
+2017-12-08 15:42:39,648 INFO  [http-nio-8080-exec-2] UserDAO: user register completd successfully

@@ -1,0 +1,5 @@
+2017-12-13 15:27:26,172 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-13 15:27:26,177 INFO  [http-nio-8082-exec-8] UserDAO: Deivce already exists
+2017-12-13 15:27:26,178 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-13 15:27:26,179 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-13 15:27:26,183 WARN  [http-nio-8082-exec-8] deprecation: HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead

@@ -1,0 +1,15 @@
+.center-justified {
+    margin-left: 500px;
+    text-align: justify;
+    width: 30em;
+	line-height: 30px;
+}
+#borderimg1 { 
+    border: 2.5px solid black;
+	margin-left:75px;
+}
+
+h2
+{
+	color:red;
+}

@@ -1,0 +1,16 @@
+2017-12-15 16:20:17,768 INFO  [http-nio-8082-exec-7] MySessionFactory: session factory call
+2017-12-15 16:20:17,774 INFO  [http-nio-8082-exec-7] UserDAO: Checking Validity
+2017-12-15 16:20:17,774 INFO  [http-nio-8082-exec-7] MySessionFactory: session factory call
+2017-12-15 16:20:17,777 INFO  [http-nio-8082-exec-7] UserDAO: change status excecuting
+2017-12-15 16:20:17,780 INFO  [http-nio-8082-exec-7] UserDAO: Device Not Valid right now
+2017-12-15 16:20:17,780 INFO  [http-nio-8082-exec-7] UserDAO: Deivce status found
+2017-12-15 16:20:20,410 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-15 16:20:20,413 INFO  [http-nio-8082-exec-8] UserDAO: Checking Validity
+2017-12-15 16:20:20,414 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-15 16:20:20,416 INFO  [http-nio-8082-exec-8] UserDAO: change status excecuting
+2017-12-15 16:20:20,417 INFO  [http-nio-8082-exec-8] UserDAO: Device Not Valid right now
+2017-12-15 16:20:20,418 INFO  [http-nio-8082-exec-8] UserDAO: Deivce status found
+2017-12-15 16:20:21,428 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-15 16:20:21,430 INFO  [http-nio-8082-exec-9] UserDAO: Deivce status not found ID31786
+2017-12-15 16:20:30,284 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-15 16:20:30,287 INFO  [http-nio-8082-exec-10] UserDAO: Deivce status not found ID31786

@@ -1,0 +1,6 @@
+2017-12-14 23:25:00,150 INFO  [main] AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+2017-12-14 23:25:00,174 INFO  [main] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8082"]
+2017-12-14 23:25:00,185 INFO  [main] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8082"]
+2017-12-14 23:25:00,191 INFO  [main] NioSelectorPool: Using a shared selector for servlet write/read
+2017-12-14 23:25:00,209 INFO  [main] TomcatEmbeddedServletContainer: Tomcat started on port(s): 8082 (http)
+2017-12-14 23:25:00,215 INFO  [main] DevicemanagementApplication: Started DevicemanagementApplication in 2.795 seconds (JVM running for 3.677)

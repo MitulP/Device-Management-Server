@@ -1,0 +1,8 @@
+2017-12-13 00:00:08,104 INFO  [http-nio-8082-exec-8] MySessionFactory: session factory call
+2017-12-13 00:00:08,109 INFO  [http-nio-8082-exec-8] UserDAO: Deivce status not found ID322222283331
+2017-12-13 00:00:20,468 INFO  [http-nio-8082-exec-9] MySessionFactory: session factory call
+2017-12-13 00:00:20,471 INFO  [http-nio-8082-exec-9] UserDAO: Deivce status not found ID322222283331
+2017-12-13 00:00:24,643 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-13 00:00:24,646 INFO  [http-nio-8082-exec-10] MySessionFactory: session factory call
+2017-12-13 00:00:24,649 INFO  [http-nio-8082-exec-10] UserDAO: Device Not Valid right now
+2017-12-13 00:00:24,650 INFO  [http-nio-8082-exec-10] UserDAO: Deivce status found

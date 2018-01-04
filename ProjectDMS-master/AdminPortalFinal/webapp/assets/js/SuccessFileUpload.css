@@ -1,0 +1,16 @@
+
+ body
+{
+   width: 100%;
+   Height: 100%;
+}
+#main_body
+{
+    text-align:center;
+	margin-left:200px;
+    margin-top:25px;
+	width: 750px;
+    position: absolute;
+	color: #0B611C;
+}​
+   

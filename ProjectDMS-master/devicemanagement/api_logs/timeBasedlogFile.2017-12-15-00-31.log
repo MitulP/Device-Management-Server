@@ -1,0 +1,6 @@
+2017-12-15 00:31:07,581 INFO  [http-nio-8082-exec-3] UserDAO: check device
+2017-12-15 00:31:07,591 INFO  [http-nio-8082-exec-3] MySessionFactory: session factory call
+2017-12-15 00:31:16,877 INFO  [http-nio-8082-exec-4] UserDAO: check device
+2017-12-15 00:31:16,878 INFO  [http-nio-8082-exec-4] MySessionFactory: session factory call
+2017-12-15 00:31:46,285 INFO  [http-nio-8082-exec-5] UserDAO: check device
+2017-12-15 00:31:46,285 INFO  [http-nio-8082-exec-5] MySessionFactory: session factory call
